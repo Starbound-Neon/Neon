@@ -70,8 +70,6 @@ Example usage:
 <br>
 neon.world.removeEntity(entityId) 
 
-(no player entity or you will crash right now)
-
 Removes the entity with the specified ID from the world.
 
 entityId - The ID of the entity to remove.
