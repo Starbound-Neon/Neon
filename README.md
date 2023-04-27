@@ -5,6 +5,16 @@ check out our lua.md for more info
 ## Demos
 
 <details>
+<summary><b>Send Chat</b></summary>
+<br>
+Send your Messages with Neon++! You can also get the last message received.
+<br>
+<br>
+  
+![NVIDIA_Share_NJUsodI4hR](https://user-images.githubusercontent.com/111540866/235009671-065dcc8b-9884-464a-a630-66b648be0a70.png)
+</details>
+
+<details>
 <summary><b>Local Entity Destroy</b></summary>
 <br>
 Get rid of what you dont like! With Neon++ you can locally destroy entities.
