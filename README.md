@@ -1,4 +1,4 @@
-![Neon++cats2](https://user-images.githubusercontent.com/111540866/235279635-7bdfc795-4544-4d38-8e93-6c9d1754f75b.png)
+![Neon++cats3](https://user-images.githubusercontent.com/111540866/235280308-420053d0-1ebd-4be6-8bce-ffc498dbae2c.png)
 
 # Neon++
 
