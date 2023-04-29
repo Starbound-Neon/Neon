@@ -1,4 +1,7 @@
+![Neon++cats](https://user-images.githubusercontent.com/111540866/235274479-086ee90f-64b6-4247-95be-2f0d33c88932.png)
+
 # Neon++
+
 Neon++ is a dynamic-link library (DLL) that provides a set of functions for use in the game Starbound. It also has an ImGui interface branch.
 check out our lua.md for more info
 
