@@ -85,6 +85,28 @@ Example usage:
 ```lua
 neon.world.removeEntity(123) -- Removes the entity with ID 123 from the world
 ```
+### neon.world.respawnInWorld(bool) 
+
+#### Gives you the ability to automatically respawn on the current world.
+
+`bool : bool - true or false.`
+
+Example usage:
+
+```lua
+neon.world.respawnInWorld(true) -- Respawns you on the world after dying
+```
+### neon.world.reachEntities(bool) 
+
+#### Allows you to reach through walls (radius still unaffected).
+
+`bool : bool - true or false.`
+
+Example usage:
+
+```lua
+neon.world.reachEntities(true) -- Enables Wall Reach
+```
 
 #
 
