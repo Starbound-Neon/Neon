@@ -59,6 +59,8 @@ neon.reloadMods() -- Reloads the application with the current set of mods
 
 #### Shows the warp animation in the titlescreen.
 
+`bool : bool - true or false.`
+
 Example usage:
 
 ```lua
