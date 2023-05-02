@@ -55,6 +55,16 @@ Example usage:
 neon.reloadMods() -- Reloads the application with the current set of mods
 ```
 
+### neon.warpAnimation(bool)
+
+#### Shows the warp animation in the titlescreen.
+
+Example usage:
+
+```lua
+neon.warpAnimation(true)
+```
+
 #
 
 ## neon.gui
@@ -106,6 +116,55 @@ Example usage:
 
 ```lua
 neon.world.reachEntities(true) -- Enables Wall Reach
+```
+### neon.world.ignorePhysicsObjectCollisions(bool) 
+
+#### Ignoring physics-object collisions for your world.
+
+`bool : bool - true or false.`
+
+Example usage:
+
+```lua
+neon.world.ignorePhysicsObjectCollisions(true)
+```
+### neon.world.ignoreProjectileCollisions(bool) 
+
+#### Ignoring projectile collisions for your world.
+
+`bool : bool - true or false.`
+
+Example usage:
+
+```lua
+neon.world.ignoreProjectileCollisions(true)
+```
+### neon.world.ignoreVehicleCollisions(bool) 
+
+#### Ignoring vehicle collisions for your world.
+
+`bool : bool - true or false.`
+
+Example usage:
+
+```lua
+neon.world.ignoreVehicleCollisions(true)
+```
+
+#
+
+## neon.player
+
+### neon.player.ignoreItemPickup(bool)
+
+#### Ignoring dropped items (for crash protection, spam, etc...).
+
+`bool : bool - true or false.`
+
+Example usage:
+
+```lua
+neon.player.ignoreItemPickup(true)
 ```
 
 #
