@@ -88,7 +88,7 @@ neon.gui.openGui() -- Enables the GUI
 
 ### neon.world.removeEntity(entityId) 
 
-#### Removes the entity with the specified ID from the world.
+#### Removes the entity with the specified ID from the world locally.
 
 `entityId : int - The ID of the entity to remove.`
 
