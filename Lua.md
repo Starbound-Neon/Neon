@@ -168,6 +168,17 @@ Example usage:
 ```lua
 neon.player.ignoreItemPickup(true)
 ```
+### neon.player.ignoreShipUpdate(bool)
+
+#### Ignoring updates sent to your ship (for crash protection, spam, etc...). This feature will still allow for the temporary altering of your ship, but will keep your shipworld protected in not saving the altered state. (this includes updates you do)
+
+`bool : bool - true or false.`
+
+Example usage:
+
+```lua
+neon.player.ignoreShipUpdate(true)
+```
 
 #
 
