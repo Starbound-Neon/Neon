@@ -204,29 +204,6 @@ Example usage:
 ```lua
 local uuid = neon.spoof.getPlayerUUID() -- Gets the player's current spoofed UUID
 ```
-
-### neon.spoof.setAssetDigest( digest )
-
-#### Sets the asset digest to the specified value.
-
-`digest : string - The digest to set.`
-
-Example usage:
-
-```lua
-neon.spoof.setAssetDigest("0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef") -- Sets the asset digest
-```
-
-
-### neon.spoof.getAssetDigest()
-
-#### Returns the current asset digest.
-
-Example usage:
-
-```lua
-local digest = neon.spoof.getAssetDigest() -- Gets the current asset digest
-```
 #
 ## neon.chat
 ### neon.chat.sendMessage( message , chatMode )
