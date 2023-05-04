@@ -29,19 +29,6 @@ Get rid of what you dont like! With Neon++ you can locally destroy entities.
 </details>
 
 <details>
-<summary><b>Asset Spoofing</b></summary>
-<br>
-Tired of being locked from servers that dont allow you to use your fancy custom stuff? Neon++ got your back with asset spoofing!
-Just get the needed asset-digest from the logs and spoof it later with Neon++!
-<br>
-<br>
-  
-![Neon_Set_Asset_Digest](https://user-images.githubusercontent.com/111540866/235007533-bb019c40-ac98-42ae-b8d4-51bc289b8dc0.gif)
-
-![Neon_Get_Asset_Digest](https://user-images.githubusercontent.com/111540866/235007537-068e9832-944e-4c6a-9935-fe398e6e53f3.gif)
-</details>
-
-<details>
 <summary><b>Player UUID Spoofing</b></summary>
 <br>
 Spoof your UUID with Neon++! This provides some protection from unwanted visitors. (We will work on ways to make it even more protective!)
