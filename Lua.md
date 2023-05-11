@@ -351,7 +351,7 @@ local uuid = neon.spoof.getPlayerUUID() -- Gets the player's current spoofed UUI
 
 #### Sets the player's AssetDigest to the specified value.
 
-`digest : string - The UUID to set.`
+`digest : string - The AssetDigest to set.`
 
 Example usage:
 
