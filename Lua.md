@@ -179,6 +179,149 @@ Example usage:
 ```lua
 neon.player.ignoreShipUpdate(true)
 ```
+### neon.player.setName(name)
+
+#### Sets the name of the Player.
+
+`name : string`
+
+Example usage:
+
+```lua
+neon.player.setName("example")
+```
+### neon.player.setMode(mode)
+
+#### Sets the game difficulty for the player.
+
+`mode : int - 0 (Casual), 1 (Survival).`
+
+Example usage:
+
+```lua
+neon.player.setMode(0)
+```
+### neon.player.setHairDirectives(directives)
+
+#### Sets the hair directives of the player.
+
+`directives : string`
+
+Example usage:
+
+```lua
+neon.player.setHairDirectives("?crop=0;0;2;2?multiply=0000?blendscreen=/ai/ai.png;")
+```
+### neon.player.setHairGroup(group)
+
+#### Sets the hair group of the player.
+
+`group : string`
+
+Example usage:
+
+```lua
+neon.player.setHairGroup("hair")
+```
+### neon.player.setHairType(type)
+
+#### Sets the hair type of the player.
+
+`type : string`
+
+Example usage:
+
+```lua
+neon.player.setHairType("1")
+```
+### neon.player.setFacialHairDirectives(directives)
+
+#### Sets the facial hair directives of the player.
+
+`directives : string`
+
+Example usage:
+
+```lua
+neon.player.setFacialHairDirectives("?crop=0;0;2;2?multiply=0000?blendscreen=/ai/ai.png;")
+```
+### neon.player.setFacialHairGroup(group)
+
+#### Sets the facial hair group of the player.
+
+`group : string`
+
+Example usage:
+
+```lua
+neon.player.setFacialHairGroup("")
+```
+### neon.player.setFacialHairType(type)
+
+#### Sets the facial hair type of the player.
+
+`type : string`
+
+Example usage:
+
+```lua
+neon.player.setFacialHairType("")
+```
+### neon.player.setFacialMaskDirectives(directives)
+
+#### Sets the facial mask directives of the player.
+
+`directives : string`
+
+Example usage:
+
+```lua
+neon.player.setFacialMaskDirectives("?crop=0;0;2;2?multiply=0000?blendscreen=/ai/ai.png;")
+```
+### neon.player.setFacialMaskGroup(group)
+
+#### Sets the facial mask group of the player.
+
+`group : string`
+
+Example usage:
+
+```lua
+neon.player.setFacialMaskGroup("")
+```
+### neon.player.setFacialMaskType(type)
+
+#### Sets the facial mask type of the player.
+
+`type : string`
+
+Example usage:
+
+```lua
+neon.player.setFacialMaskType("")
+```
+### neon.player.setBodyDirectives(directives)
+
+#### Sets the body directives of the player.
+
+`directives : string`
+
+Example usage:
+
+```lua
+neon.player.setBodyDirectives("?crop=0;0;2;2?multiply=0000?blendscreen=/ai/ai.png;")
+```
+### neon.player.setEmoteDirectives(directives)
+
+#### Sets the emote directives of the player.
+
+`directives : string`
+
+Example usage:
+
+```lua
+neon.player.setEmoteDirectives("?crop=0;0;2;2?multiply=0000?blendscreen=/ai/ai.png;")
+```
 
 #
 
@@ -204,7 +347,29 @@ Example usage:
 ```lua
 local uuid = neon.spoof.getPlayerUUID() -- Gets the player's current spoofed UUID
 ```
+### neon.spoof.setAssetDigest(uuid)
+
+#### Sets the player's AssetDigest to the specified value.
+
+`uuid : string - The UUID to set.`
+
+Example usage:
+
+```lua
+neon.spoof.setAssetDigest("fffffffffffffffffffffffffffffffffff")-- Sets the player's AssetDigest
+```
+### neon.spoof.getAssetDigest()
+
+#### Returns the player's current AssetDigest.
+
+Example usage:
+
+```lua
+local uuid = neon.spoof.getAssetDigest() -- Gets the player's current AssetDigest
+```
+
 #
+
 ## neon.chat
 ### neon.chat.sendMessage( message , chatMode )
 
