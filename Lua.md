@@ -264,7 +264,7 @@ neon.player.setName("example")
 
 #### Sets the game difficulty for the player.
 
-`mode : int - 0 (Casual), 1 (Survival).`
+`mode : int - 0 (Casual), 1 (Survival), 2 (Hardcore).`
 
 Example usage:
 
