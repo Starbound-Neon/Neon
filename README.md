@@ -8,13 +8,52 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
 
 ### If you like this project, you can support the development of Neon++ here:
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/lonaasan)
-
 <details><summary>
   
-### Table of contents:
+## Installation
   
 </summary>
   
+<details><summary>
+  
+  ### Standalone
+  
+</summary>
+  
+  TODO
+  
+</details>
+
+<details><summary>
+  
+  ### HasiboundLite
+  
+</summary>
+  
+  This feature is planned, for now, use the standalone way
+  
+</details>
+
+<details><summary>
+  
+  ### StarExtensions
+  
+</summary>
+  
+  TODO
+  
+</details>
+
+</details>
+  
+<details><summary>
+  
+## All functions:
+  
+</summary>
+  
+  All functions Neon++ provides. Look into [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) for the documentation!
+
   neon\
   neon.build\
   neon.version\
@@ -61,7 +100,11 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
   neon.chat.lastMessage()
 </details>
 
-## Demos
+<details><summary>
+  
+## Demos:
+  
+</summary>
 
 <details>
 <summary><b>Change Difficulty</b></summary>
@@ -118,5 +161,7 @@ Send your Messages with Neon++! You can also get the last message received.
   
 ![NVIDIA_Share_NJUsodI4hR](https://user-images.githubusercontent.com/111540866/235009671-065dcc8b-9884-464a-a630-66b648be0a70.png)
 </details>
-
-and many more! Look in [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) for all functions!
+  
+  and many more! Look in [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) for all functions!
+  
+</details>
