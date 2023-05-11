@@ -97,8 +97,8 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
 <summary><b>Change Difficulty</b></summary>
 <br>
   
-You messed up in you character creation and accidentally made it hardcore? Neon++ got your back with neon.player.setMode()!\
-It lets you easily change your difficulty on the fly, so you can game on without a new character!
+You messed up in your character creation and accidentally made it hardcore? Neon++ got your back with neon.player.setMode()!\
+It lets you easily change your difficulty on the fly, so you can game on without making a new character!
 </details>
 
 <details>
@@ -106,7 +106,7 @@ It lets you easily change your difficulty on the fly, so you can game on without
 <br>
   
 Your ship got raided? Other people on the server throw crashing items at you?\
-Do not worry, Neon++ has Options to protect your shipworld file and your inventory from malicious players!
+Do not worry, Neon++ has options to protect your shipworld file and your inventory from malicious players!
 </details>
 
 <details>
