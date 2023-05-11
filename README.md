@@ -14,35 +14,22 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
   
 </summary>
   
-<details><summary>
-  
   ### Standalone
   
-</summary>
-  
-  TODO
-  
-</details>
-
-<details><summary>
+  Currently, use the injector of your choice and inject Neon++ into the game while in the titlescreen.
   
   ### HasiboundLite
   
-</summary>
-  
-  This feature is planned, for now, use the standalone way
-  
-</details>
-
-<details><summary>
+  DLL loading is planned in the future, for now, use the standalone way
   
   ### StarExtensions
   
-</summary>
-  
-  TODO
-  
-</details>
+  From the StarExtensions Github Site:
+  >You can create a file called libraries.txt in the win64/win32 folder and list other DLLs to load on each line.
+
+  If you, for example, put Neon++ into your win64 folder, you can write:\
+  `Neon++.dll` or `Neon++GUI.dll`\
+  into the libraries.txt.
 
 </details>
   
