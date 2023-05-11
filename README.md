@@ -9,6 +9,58 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
 ### If you like this project, you can support the development of Neon++ here:
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/lonaasan)
 
+<details><summary>
+  
+### Table of contents:
+  
+</summary>
+  
+  neon\
+  neon.build\
+  neon.version\
+  neon.name\
+  neon.uniqueId\
+  neon.reloadMods()\
+  neon.warpAnimation(bool)\
+  neon.gui\
+  neon.gui.openGui()
+  
+  neon.world\
+  neon.world.removeEntity(entityId)\
+  neon.world.respawnInWorld(bool)\
+  neon.world.reachEntities(bool)\
+  neon.world.ignorePhysicsObjectCollisions(bool)\
+  neon.world.ignoreProjectileCollisions(bool)\
+  neon.world.ignoreVehicleCollisions(bool)
+  
+  neon.player\
+  neon.player.ignoreItemPickup(bool)\
+  neon.player.ignoreShipUpdate(bool)\
+  neon.player.setName(name)\
+  neon.player.setMode(mode)\
+  neon.player.setHairDirectives(directives)\
+  neon.player.setHairGroup(group)\
+  neon.player.setHairType(type)\
+  neon.player.setFacialHairDirectives(directives)\
+  neon.player.setFacialHairGroup(group)\
+  neon.player.setFacialHairType(type)\
+  neon.player.setFacialMaskDirectives(directives)\
+  neon.player.setFacialMaskGroup(group)\
+  neon.player.setFacialMaskType(type)\
+  neon.player.setBodyDirectives(directives)\
+  neon.player.setEmoteDirectives(directives)
+  
+  neon.spoof\
+  neon.spoof.setPlayerUUID(uuid)\
+  neon.spoof.getPlayerUUID()\
+  neon.spoof.setAssetDigest(digest)\
+  neon.spoof.getAssetDigest()
+  
+  neon.chat\
+  neon.chat.sendMessage(message, chatMode)\
+  neon.chat.lastMessage()
+</details>
+
 ## Demos
 
 <details>
