@@ -96,6 +96,7 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
 <details>
 <summary><b>Change Difficulty</b></summary>
 <br>
+  
 You messed up in you character creation and accidentally made it hardcore? Neon++ got your back with neon.player.setMode()!\
 It lets you easily change your difficulty on the fly, so you can game on without a new character!
 </details>
@@ -103,6 +104,7 @@ It lets you easily change your difficulty on the fly, so you can game on without
 <details>
 <summary><b>Anti-grief & prevent malicious items</b></summary>
 <br>
+  
 Your ship got raided? Other people on the server throw crashing items at you?\
 Do not worry, Neon++ has Options to protect your shipworld file and your inventory from malicious players!
 </details>
@@ -120,6 +122,7 @@ Get rid of what you dont like! With Neon++ you can locally destroy entities.
 <details>
 <summary><b>Asset Spoofing</b></summary>
 <br>
+  
 Tired of being locked from servers that dont allow you to use your fancy custom stuff? Neon++ got your back with asset spoofing!\
 Just get the needed asset-digest from the logs and spoof it later with Neon++!
 <br>
@@ -132,7 +135,9 @@ Just get the needed asset-digest from the logs and spoof it later with Neon++!
 <details>
 <summary><b>Player UUID Spoofing</b></summary>
 <br>
-Spoof your UUID with Neon++! This provides some protection from unwanted visitors. (We will work on ways to make it even more protective!)
+  
+Spoof your UUID with Neon++! This provides some protection from unwanted visitors.\
+(We will work on ways to make it even more protective!)
 <br>
 <br>
 
