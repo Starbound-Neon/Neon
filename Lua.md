@@ -2,7 +2,7 @@
 The following functions are supported in the Neon++ DLL:
 <details><summary>
   
-### Table of contents:
+## Table of contents:
   
 </summary>
   
