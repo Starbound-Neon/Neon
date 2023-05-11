@@ -2,8 +2,11 @@
 The following functions are supported in the Neon++ DLL:
 
 #
+<details><summary>
+  
 ## neon
-
+  
+</summary>
 
 ### neon.build
 
@@ -66,10 +69,15 @@ Example usage:
 ```lua
 neon.warpAnimation(true)
 ```
+</details>
 
 #
 
+<details><summary>
+  
 ## neon.gui
+  
+</summary>
 
 (only gui version of the dll)
 
@@ -81,10 +89,15 @@ Example usage:
 ```lua
 neon.gui.openGui() -- Enables the GUI
 ```
+</details>
 
 #
 
+<details><summary>
+  
 ## neon.world
+  
+</summary>
 
 ### neon.world.removeEntity(entityId) 
 
@@ -153,9 +166,15 @@ Example usage:
 neon.world.ignoreVehicleCollisions(true)
 ```
 
+</details>
+
 #
 
+<details><summary>
+  
 ## neon.player
+  
+</summary>
 
 ### neon.player.ignoreItemPickup(bool)
 
@@ -323,9 +342,15 @@ Example usage:
 neon.player.setEmoteDirectives("?crop=0;0;2;2?multiply=0000?blendscreen=/ai/ai.png;")
 ```
 
+</details>
+
 #
 
+<details><summary>
+  
 ## neon.spoof
+  
+</summary>
 
 ### neon.spoof.setPlayerUUID(uuid)
 
@@ -368,9 +393,16 @@ Example usage:
 local digest = neon.spoof.getAssetDigest() -- Gets the player's current AssetDigest
 ```
 
+</details>
+
 #
 
+<details><summary>
+  
 ## neon.chat
+  
+</summary>
+  
 ### neon.chat.sendMessage( message , chatMode )
 
 #### Sends a chat message to the server.
