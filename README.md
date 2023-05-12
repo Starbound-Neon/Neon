@@ -28,7 +28,7 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
   >You can create a file called libraries.txt in the win64/win32 folder and list other DLLs to load on each line.
 
   If you, for example, put Neon++ into your win64 folder, you can write:\
-  `Neon++.dll` or `Neon++GUI.dll`\
+  `Neon++.dll`\
   into the libraries.txt.
 
 </details>
