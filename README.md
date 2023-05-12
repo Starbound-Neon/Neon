@@ -16,7 +16,7 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
   
   ### Standalone
   
-  Replayer method is currently unavailable because of Instability, please use an injector and inject Neon++ in the titlescreen.
+  Replacer method is currently unavailable because of Instability, please use an injector and inject Neon++ in the titlescreen.
   
   ### HasiboundLite
   
