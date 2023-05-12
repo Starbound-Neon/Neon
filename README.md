@@ -16,9 +16,7 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
   
   ### Standalone
   
-  Simply unzip the version you download into your win64 folder, done!\
-  Neon++ has a glew32.dll replacement so it gets loaded at startup.
-  (make a backup of your old glew32.dll if you want to uninstall Neon++)
+  Replayer method is currently unavailable because of Instability, please use an injector and inject Neon++ in the titlescreen.
   
   ### HasiboundLite
   
