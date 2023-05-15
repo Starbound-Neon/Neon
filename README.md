@@ -3,7 +3,7 @@
 # Neon++
 ## Utility DLL for Starbound - Client-side - Vanilla, StarExtensions(NOGUI) and Hasibound compatible
 
-Neon++ is a dynamic-link library (DLL) that provides a set of functions for use in the game Starbound. It also has an ImGui interface branch.
+Neon++ is a dynamic-link library (DLL) that provides a set of functions for use in the game Starbound. It also has an ImGui interface version.
 check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) for more info
 
 ### If you like this project, you can support the development of Neon++ here:
