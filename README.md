@@ -54,6 +54,7 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
   neon.world\
   neon.world.removeEntity(entityId)\
   neon.world.respawnInWorld(bool)\
+  neon.world.getPlayerAimPosition(entityId)\
   neon.world.reachEntities(bool)\
   neon.world.ignorePhysicsObjectCollisions(bool)\
   neon.world.ignoreProjectileCollisions(bool)\
