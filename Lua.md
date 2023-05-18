@@ -172,6 +172,17 @@ Example usage:
 ```lua
 neon.world.respawnInWorld(true) -- Respawns you on the world after dying
 ```
+### neon.world.getPlayerAimPosition(entityId) 
+
+#### Allows you to see the aimPosition of other players.
+
+`entityId : int - The ID of the entity you want the aim position from.`
+
+Example usage:
+
+```lua
+local aimPosition =  {neon.world.getPlayerAimPosition(entity.Id())} -- would get your own aimPosition
+```
 ### neon.world.reachEntities(bool) 
 
 #### Allows you to reach through walls (radius still unaffected).
