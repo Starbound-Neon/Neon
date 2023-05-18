@@ -19,6 +19,7 @@ The following functions are supported in the Neon++ DLL:
   neon.world\
   neon.world.removeEntity(entityId)\
   neon.world.respawnInWorld(bool)\
+  neon.world.getPlayerAimPosition(entityId)\
   neon.world.reachEntities(bool)\
   neon.world.ignorePhysicsObjectCollisions(bool)\
   neon.world.ignoreProjectileCollisions(bool)\
