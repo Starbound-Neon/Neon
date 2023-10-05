@@ -13,9 +13,18 @@ The following functions are supported in the Neon++ DLL:
   neon.uniqueId\
   neon.reloadMods()\
   neon.warpAnimation(bool)\
+
   neon.gui\
   neon.gui.openGui()
   
+  neon.universe\
+  neon.universe.blockConnection(entityId)\
+  neon.universe.unblockConnection(entityId)
+
+  neon.performance\
+  neon.performance.renderFps()\
+  neon.performance.updateRate()
+
   neon.world\
   neon.world.removeEntity(entityId)\
   neon.world.respawnInWorld(bool)\
@@ -140,6 +149,62 @@ Example usage:
 
 ```lua
 neon.gui.openGui() -- Enables the GUI
+```
+</details>
+
+#
+
+<details><summary>
+
+## neon.universe
+  
+</summary>
+
+### neon.universe.blockConnection(entityId)
+
+#### Removes the entity with the specified ID from the world locally and blocks chat-packets from the corresponding connection.
+
+Example usage:
+
+```lua
+neon.universe.blockConnection(123) -- Removes the entity with ID 123 from the world and blocks their chat-packets
+```
+### neon.universe.unblockConnection(entityId)
+
+#### Unblocks the entity with the specified ID and the corresponding connection.
+
+Example usage:
+
+```lua
+neon.universe.unblockConnection(123) -- Removes the entity with ID 123 from the temp blocklist.
+```
+</details>
+
+#
+
+<details><summary>
+
+## neon.performance
+  
+</summary>
+
+### neon.performance.renderFps()
+
+#### Gives you the renderFps
+
+Example usage:
+
+```lua
+neon.performance.renderFps() -- Gives you the renderFps
+```
+### neon.performance.updateRate()
+
+#### Gives you the updateRate
+
+Example usage:
+
+```lua
+neon.performance.updateRate() -- Gives you the updateRate
 ```
 </details>
 
