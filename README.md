@@ -47,10 +47,19 @@ check out our [lua.md](https://github.com/Starbound-Neon/Neon/blob/main/Lua.md) 
   neon.name\
   neon.uniqueId\
   neon.reloadMods()\
-  neon.warpAnimation(bool)\
+  neon.warpAnimation(bool)
+
   neon.gui\
   neon.gui.openGui()
   
+  neon.universe\
+  neon.universe.blockConnection(entityId)\
+  neon.universe.unblockConnection(entityId)
+
+  neon.performance\
+  neon.performance.renderFps()\
+  neon.performance.updateRate()
+
   neon.world\
   neon.world.removeEntity(entityId)\
   neon.world.respawnInWorld(bool)\
